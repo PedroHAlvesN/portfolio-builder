@@ -4,6 +4,15 @@ export default async function Layout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="max-w-7xl flex flex-col gap-12 items-start">{children}</div>
+    <main className="w-full h-full flex items-center px-[182px] bg-[url(/background-auth.png)]">
+      <div>
+        <span className="flex flex-col">
+          <img src="/logo.png" alt="" className="w-[60px] h-[60px]" />
+          Likia
+        </span>
+        <h1 className="text-4xl font-bold">Conecte-se ao que importa!</h1>
+      </div>
+      {children}
+    </main>
   );
 }
