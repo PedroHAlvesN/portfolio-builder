@@ -19,6 +19,8 @@ const config = {
     },
     extend: {
       colors: {
+        cardStart: "rgba(55, 55, 55, 15%)",
+        cardEnd: "rgba(0, 0, 0, 0%)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
